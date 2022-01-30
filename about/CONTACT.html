@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> about</title>
+    
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/3aa4802b50.js" crossorigin="anonymous"></script>
+    
+
+</head>
+
+<body>
+    <div> <nav>
+        <div class="nav-content">
+          <div class="logo">
+            <a href="#">Emmanuel Mumo.</a>
+          </div>
+          <ul class="nav-links text-center text-success">
+            <li><a href="HOME.html"> <i class="fa fa-home"></i> HOME</a></li>
+            <li><a href="ABOUT.html"> <i class="fa fa-user"></i> ABOUT</a></li>
+            <li><a href="EDUCATION.html"> <i class="fas fa-graduation-cap"></i> EDUCATION</a></li>
+            <li><a href="CONTACT.html"> <i class="fa fa-phone"></i> CONTACT ME</a></li>
+
+        </ul>
+        </div>
+      </nav></div>
+
+
+    </div> <hr>
+    <section class="contact">
+        <div class="conte">
+            <h2>Contact</h2>
+            <p> Get in touch with me by any of the means below</p>
+        </div>
+        <div class="cont">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"> <i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+                        <div class=" ptext">
+                             <h3>address</h3>
+                             <p>sultan Hamud <br>box 408 <br> Mbalani</p>
+                        </div>
+                </div> <div class="box">
+                    <div class="icon"><i class="fas fa-phone-square" aria-hidden="true"></i></div>
+                        <div class=" ptext">
+                             <h3>phone</h3>
+                             <p>+254-769261040</p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-open" aria-hidden="true"></i></div>
+                        <div class=" ptext">
+                             <h3>e-mail</h3>
+                             <p>mumoemmanuel2029@gmail.com</p>
+                        </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form action="">
+                    <h2>Send message</h2>
+                    <div class="inputbox"> 
+                         <span>Full Name</span>
+                        <input type="text" name="" required="required">
+                      
+                    </div>
+                    <div class="inputbox">
+                        <span>e-mail</span>
+                        <input type="text" name="" required="required">
+                      
+                    </div>
+                    <div class="inputbox">
+                        <span>Type your messange...</span>
+                       <textarea required="required"></textarea>
+                     
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="Send">
+                      
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <script>
+        let nav = document.querySelector("nav");
+          window.onscroll = function() {
+            if(document.documentElement.scrollTop > 20){
+              nav.classList.add("sticky");
+            }else {
+              nav.classList.remove("sticky");
+            }
+          }
+        </script>
+    </body>
+    <footer class="progress-bar">
+        &copy;2022 portfolio.Revised by fairchild 
+    </footer>
+    
+
+</html>
