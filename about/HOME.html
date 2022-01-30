@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Combatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>personal portfolia</title>
+  <link rel="stylesheet" href="style p.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+</head>
+
+<body class="bg-info">
+  <div class="hero">
+    <div>
+      <nav>
+        <div class="nav-content">
+          <div class="logo">
+            <a href="#">Emmanuel Mumo.</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="HOME.html"> <img class="rounded-circle float-start" src="images/home.png" alt="loading home"
+                  class="img-fluid" width="30px" height="25px"> HOME</a></li>
+            <li><a href="ABOUT.html"> <img class="rounded-circle float-start" src="images/about.png" alt="loading about"
+                  class="img-fluid" width="30px" height="25px"> ABOUT</a></li>
+            <li><a href="EDUCATION.html"> <img class="rounded-circle float-start" src="images/edc.jpeg"
+                  alt="loading education" class="img-fluid" width="30px" height="25px"> EDUCATION</a></li>
+            <li><a href="CONTACT.html"><img class="rounded-circle float-start" src="images/contact.png"
+                  alt="loading contact" class="img-fluid" width="30px" height="25px"> CONTACT ME</a></li>
+
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+    <img class="float-start rounded-circle" src="images/mumo.jpg" alt="loading blog" class="img-fluid" width="270px"
+      height="300px">
+    <div class="detel">
+      <h1>I am Emmanuel <span>Mumo</span></h1>
+      <p class="btn-close-white">This is my official portfolio website showing my<br>details, experience to the present
+        time. </p>
+      <a href="ABOUT.html">about me</a>
+    </div>
+    <div class="images" class="col-md-2">
+      <img class="float-end" src="images/v2.gif" alt="loading v2" width="270px" height="450px">
+      <img class="rounded-circle float-end" src="images/me.jpg" alt="loading me" class="" width="100px" height="100px">
+
+    </div>
+
+  </div>
+  <script>
+    let nav = document.querySelector("nav");
+    window.onscroll = function () {
+      if (document.documentElement.scrollTop > 20) {
+        nav.classList.add("sticky");
+      } else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+
+</html>
